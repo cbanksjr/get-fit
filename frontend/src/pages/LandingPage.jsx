@@ -4,7 +4,7 @@
 import { Button } from "flowbite-react";
 
 import { Link } from "react-router-dom";
-import logo from "/gymlogo.jpeg";
+import logo from "/GetFit.jpg";
 
 const LandingPage = () => {
   return (
