@@ -70,10 +70,10 @@ function Header() {
         <div className="hidden md:flex items-center md:mt-5">
           <img
             className="ml-3 w-[50px] h-[50px] rounded-[50%] mr-5 lg:w-[70px] lg:h-[70px] 2xl:w-[100px] 2xl:h-[100px]"
-            src="/gymlogo.jpeg"
-            alt="cut butt logo"
+            src="/GetFit.jpg"
+            alt= "get fit logo"
           />
-          <p className="hidden md:contents text-lg 2xl:text-3xl">GloboGym</p>
+          <p className="hidden md:contents text-lg 2xl:text-3xl">Get Fit</p>
         </div>
         <nav className={`flex items-center mt-3 md:flex 2xl:text-3xl ${isMenuOpen ? 'flex' : 'hidden'}`}>
           <ul className="text-md md:flex 2xl:text-3xl">
@@ -82,9 +82,6 @@ function Header() {
             </li>
             <li className="text-white no-underline list-none px-3 lg:px-5">
               <Link to="/workouts">Workouts</Link>
-            </li>
-            <li className="text-white no-underline list-none px-3 lg:px-5">
-              <Link to="/Nutrition">Nutrition</Link>
             </li>
           </ul>
         </nav>
