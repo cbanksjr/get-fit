@@ -1,12 +1,3 @@
-/* eslint-disable no-unused-vars */
-/**
- * eslint-disable no-unused-vars
- * [#113724]
- * @format
- */
-
-/* eslint-disable react/jsx-no-comment-textnodes */
-/* eslint-disable react/no-unescaped-entities */
 import Footer from "../components/Footer";
 import axios from "axios";
 import Header from "../components/Header";
