@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
-/** @format */
+import PropTypes from "prop-types";
+
 
 const WorkoutCard = ({ name, instructions, difficulty, equipment }) => {
   return (
@@ -14,4 +14,10 @@ const WorkoutCard = ({ name, instructions, difficulty, equipment }) => {
   );
 };
 
+WorkoutCard.propTypes = {
+    name: PropTypes.string,
+    instructions: PropTypes.string,
+    difficulty: PropTypes.string,
+    equipment: PropTypes.string
+}
 export default WorkoutCard;

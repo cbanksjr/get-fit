@@ -1,8 +1,3 @@
-/**
- * eslint-disable no-unused-vars
- *
- * @format
- */
 import axios from "axios";
 import {  useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
@@ -15,9 +10,8 @@ function Header() {
     await axios
       .get("/api/logout")
       .then((response) => response.data)
-      .then(navigate("/"))
+      .then(() => navigate("/login"))
       .catch((error) => console.error(error));
-
     setIsMenuOpen(false);
   };
 
@@ -78,7 +72,7 @@ function Header() {
         <nav className={`flex items-center mt-3 md:flex 2xl:text-3xl ${isMenuOpen ? 'flex' : 'hidden'}`}>
           <ul className="text-md md:flex 2xl:text-3xl">
             <li className="text-white no-underline list-none px-3 lg:px-5">
-              <Link to="/home">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li className="text-white no-underline list-none px-3 lg:px-5">
               <Link to="/workouts">Workouts</Link>
@@ -90,7 +84,7 @@ function Header() {
           className="2xl:text-2xl mr-3 mt-6 relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-orange-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-100 dark:focus:ring-pink-800"
         >
           <span className="relative px-4 py-1.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-            Logout
+            Login
           </span>
         </button>
       </header>
