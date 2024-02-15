@@ -5,7 +5,7 @@ The Get Fit exercise app was a project that I worked on with three classmates du
 React, Flowbite, Tailwind, Spring Boot, H2 Database, Axios
 
 # Implementation After Bootcamp
-Since completing the boot camp, I have decided to continue working on the project and make some improvements. For instance, I plan to refactor the React code to follow best practices such as using components instead of including code inside pages. I also plan to implement an external database like PostgreSQL and optimize the Java code.
+Since completing the boot camp, I have decided to continue working on the project and make some improvements. For instance, I plan to refactor the React code to follow best practices such as using components instead of including code inside pages. I implemented PostgreSQL, and also plan to optimize the Java code.
 
 ## New Tech Used
 PostgreSQL
