@@ -9,3 +9,12 @@ Since completing the boot camp, I have decided to continue working on the projec
 
 ## New Tech Used
 PostgreSQL
+
+# Check Out The Project
+1. Clone the repository: Copy and Paste this into your dev environment -> https://github.com/cbanksjr/get-fit.git
+2. Run the Backend Application.
+3. Open another terminal in your IDE
+     1. cd frontend
+     2. npm install
+     3. npm run dev
+     4. ctrl + click(Windows) / command + click(mac) on "http://localhost:5173/" 
